@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    height: 95vh;
+    width: 30%;
+    background-color: white;
+    border-radius: 30px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    /* Center the image */
+}
+
+#profile-grid {
+    height: 300px;
+    width: 300px;
+    border: 5px solid cornflowerblue;
+    position: relative;
+    margin: 0 auto;
+    /* Center the profile grid */
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#name-container h2 {
+    position: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+#name-container p {
+    position: block;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+#button-container {
+    position: relative;
+    top: 50px;
+}
+
+#button-container button {
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 7vh;
+    border: 1px solid #dadada;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#status-container {
+    position: relative;
+    top: 70px;
+    left: 30%;
+    font-size: 1.2rem;
+}
+
+#status-container h2 {
+    text-align: center;
+}
+
+#status-container #quote-text {
+    font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+    #card {
+        width: 50%;
+        /* Adjust width for smaller screens */
+    }
+}
